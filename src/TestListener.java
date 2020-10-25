@@ -31,6 +31,7 @@ public class TestListener implements MethodRule {
                     // rethrow to allow the failure to be reported by JUnit
                     throw t;
                 }
+                driver.quit();
             }
 
             public void captureScreenShot(String fileName) throws IOException {

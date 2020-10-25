@@ -11,7 +11,7 @@ import java.util.concurrent.TimeUnit;
 
 public class SeleniumTest {
 
-    private static String chromedriverPath = "<chromedriver_path>";
+    private static String chromedriverPath = "C:\\Users\\nbira\\Documents\\chromedriver\\chromedriver.exe";
     private static WebDriver driver;
 
     @Rule
